@@ -1,0 +1,13 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: tomcat
+  namespace: tomcat
+spec:
+  template:
+    spec:
+      containers:
+        - image: docker.io/jfclere/tomcat
+          env:
+            - name: TARGET
+              value: "Tomcat Sample v1"
