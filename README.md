@@ -77,7 +77,7 @@ curl -v http://tomcat-tomcat.apps.jclere.rhmw-runtimes.net
   "hostname": "tomcat-s4zdv-deployment-84d9dc9746-9c9zg"
 }
 * Closing connection 0
-
+```
 
 # curl and check the counter (replace 34BC7BDA31872E3EDBDA762D982ADA6 by the set-cookie: JSESSIONID=value).
 ```
