@@ -79,7 +79,8 @@ curl -v http://tomcat-tomcat.apps.jclere.rhmw-runtimes.net
 * Closing connection 0
 ```
 
-# curl and check the counter (replace 34BC7BDA31872E3EDBDA762D982ADA6 by the set-cookie: JSESSIONID=value).
+# curl and check the counter
+replace 34BC7BDA31872E3EDBDA762D982ADA6 by the set-cookie: JSESSIONID=value.
 ```
 curl -v --cookie JSESSIONID=34BC7BDA31872E3EDBDA762D982ADA6C http://tomcat-tomcat.apps.jclere.rhmw-runtimes.net
 ```
