@@ -43,7 +43,7 @@ Note that it might take some minutes to have everything ready.
 ```
 oc new-project tomcat
 oc apply -f natservice.yaml
-
+```
 # Check the result:
 ```
 oc get ksvc tomcat
